@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#22A4DF</color>
+    <color name="colorPrimaryDark">#212121</color>
+    <color name="colorAccent">#0B7FD6</color>
+    <color name="background_button">#3486a1</color>
+
+    <color name="select">#b9000000</color>
+    <color name="blue_theme">#0B7FD6</color>
+    <color name="Black">#212121</color>
+    <color name="Gray">#e3e6e8</color>
+
+    <!--Custom Color-->
+
+    <color name="gray">#b4b4b4</color>
+    <color name="text_color">#a6a6a6</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#212121</color>
+    <color name="original_black">#000000</color>
+    <color name="blue_transfer">#12436B</color>
+
+    <color name="gifstudiocreator_200">#a2e2f6</color>
+    <color name="gifstudiocreator_900">#355E70</color>
+    <color name="gifstudiocreator_A100">#188AC5</color>
+
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="check_update">Periksa Pembaruan</string>
+    <string name="choose_picture_from_galery">Pilih Foto dari Galeri</string>
+    <string name="creategif">Buat GIF Baru</string>
+    <string name="duapuluhdetik">20 Detik</string>
+    <string name="enter_giphy_search">Masuk Pencarian Giphy</string>
+    <string name="faster">Percepat</string>
+    <string name="feedback">Tanggapan</string>
+    <string name="folder_save">Lokasi Tersimpan</string>
+    <string name="gif_setting">GIF SETUP</string>
+    <string name="language">Bahasa</string>
+    <string name="max_frame_gif">Max Foto GIF</string>
+    <string name="more">Lagi</string>
+    <string name="mygif">GIF Ku</string>
+    <string name="no_gif_found">TIDAK ADA GIF DITEMUKAN KLIK DISINI UNTUK MEMBUAT GIF BARU</string>
+    <string name="out_web">Situs Developer</string>
+    <string name="play_with_duration">Mainkan dengan durasi</string>
+    <string name="please_wait">Tunggu Sebentar</string>
+    <string name="searchgif">Telusuri GIF</string>
+    <string name="set_default_duration">Tetapkan Durasi Standart</string>
+    <string name="setting">Pengaturan</string>
+    <string name="share">Bagikan</string>
+    <string name="size_output">Ukuran Gambar GIF</string>
+    <string name="slower">Perlambat</string>
+    <string name="tell_me_about">Beritahu Kami pendapat anda tentang aplikasi ini</string>
+    <string name="tell_your_friends">Beri tahu teman Anda tentang aplikasi ini.</string>
+    <string name="the_more_of_number">150 bingkai Semakin banyak jumlah frame yang diproses lebih lambat.</string>
+    <string name="your_gif_being_created">GIF ANDA SEDANG DI BUAT</string>
+</resources>

@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/customtoolbar"/>
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:fillViewport="true"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:fontFamily="@font/aldrich"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="@dimen/margin03"
+                android:padding="@dimen/margin03"
+                android:text="@string/gif_setting"
+                />
+
+
+            <LinearLayout
+                android:id="@+id/lnvSize"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin03"
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin10">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/icon_size" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/margin10">
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/size_output"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:id="@+id/txtMaxSize"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:text="@string/max_pixel" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:background="@color/Gray" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="horizontal"
+                android:padding="@dimen/margin10">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/icon_frame" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/margin10">
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/max_frame_gif"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:id="@+id/txtMaxFrame"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:text="@string/the_more_of_number" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_1sdp"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:background="@color/Gray" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <SeekBar
+                android:id="@+id/seekBarFrame"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/lnvmAxframe"
+                android:layout_marginTop="@dimen/margin05"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin10">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_folder_open_black_24dp"
+                    android:tint="@color/black" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/margin10">
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/folder_save"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:id="@+id/txtFolder"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/text_color"
+                        android:textSize="12sp"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:text="@string/storage_location"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:background="@color/Gray" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin05"
+                android:orientation="horizontal"
+                android:id="@+id/lnvLangue"
+                android:padding="@dimen/margin10">
+
+
+                <ImageView
+                    android:tint="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_language_black_24dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/margin10">
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/language"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/text_color"
+                        android:textSize="12sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:text="@string/english" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:background="@color/Gray" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin05"
+                android:orientation="horizontal"
+                android:id="@+id/lnvWebsite"
+                android:padding="@dimen/margin10">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:tint="@color/black"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_web_black_24dp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/margin10">
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/out_web"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:text="@string/check_out"
+                        android:textColor="@color/text_color"
+                        android:textSize="12sp" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:background="@color/Gray" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin05"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin10">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:tint="@color/black"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_feedback_black_24dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/lnvFeedBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/margin10">
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/feedback"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:textColor="@color/text_color"
+                        android:textSize="12sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:text="@string/tell_me_about" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:background="@color/Gray" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin05"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin10">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:tint="@color/black"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_share_black_24dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/lnvShare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/margin10">
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/share"
+                        android:textColor="@color/Black" />
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:textColor="@color/text_color"
+                        android:textSize="12sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:text="@string/tell_your_friends" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:background="@color/Gray" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin05"
+                android:orientation="horizontal"
+                android:padding="@dimen/margin10">
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_update_black_24dp" />
+
+
+                <LinearLayout
+                    android:id="@+id/lnvVersion"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/margin10">
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/check_update"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:fontFamily="@font/aldrich"
+                        android:id="@+id/txtVersion"
+                        android:layout_width="match_parent"
+                        android:textColor="@color/text_color"
+                        android:textSize="12sp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:text="@string/version" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_marginTop="@dimen/margin03"
+                        android:background="@color/Gray" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+    <TextView
+        android:fontFamily="@font/aldrich"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_gravity="bottom"
+        android:textSize="10sp"
+        android:gravity="bottom"
+        android:padding="@dimen/margin05"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+</LinearLayout>

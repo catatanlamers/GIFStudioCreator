@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name" translatable="false">GIF STUDIO CREATOR</string>
+
+
+    <string name="addmob_id" translatable="false">ca-app-pub-4903669693063977~2550652315</string>
+    <string name="banner_ads" translatable="false">ca-app-pub-4903669693063977/8214042539</string>
+    <string name="intrestial_ads" translatable="false">ca-app-pub-4903669693063977/4793672277</string>
+    <string name="creategif">Create New GIF</string>
+    <string name="mygif">My GIF</string>
+    <string name="searchgif">Search GIF</string>
+    <string name="setting">Setting</string>
+    <string name="slogan" translatable="false">GIF STUDIO CREATOR</string>
+    <string name="set_default_duration">Set Default Duration</string>
+    <string name="choose_picture_from_galery">Choose picture form galery</string>
+    <string name="play_with_duration">Play with duration </string>
+    <string name="gif" translatable="false">GIF</string>
+    <string name="your_gif_being_created">YOUR GIF IS BEING CREATED</string>
+    <string name="please_wait">PLEASE WAIT...</string>
+    <string name="faster">Faster</string>
+    <string name="slower">Slower</string>
+    <string name="duapuluhdetik">20 SEC</string>
+    <string name="enter_giphy_search">Enter gifhy search</string>
+    <string name="facebook" translatable="false">Facebook</string>
+    <string name="wa" translatable="false">Whatsup</string>
+    <string name="ig" translatable="false">Instagram</string>
+    <string name="twitter" translatable="false">Twitter</string>
+    <string name="snap_chat" translatable="false">Snap Chat</string>
+    <string name="gmail" translatable="false">Gmail</string>
+    <string name="skype" translatable="false">Skype</string>
+    <string name="more">More</string>
+    <string name="no_gif_found">NO GIF FOUND \n CLICK HERE FOR GENERATE NEW GIF</string>
+    <string name="folder" translatable="false">Folder</string>
+    <string name="sepuluh" translatable="false">10</string>
+    <string name="gello" translatable="false">Gello</string>
+    <string name="gif_setting">GIF SETTINGS</string>
+    <string name="size_output">Size of GIF output</string>
+    <string name="max_pixel" translatable="false">Max 450 pixel</string>
+    <string name="max_frame_gif">Max frame of GIF</string>
+    <string name="the_more_of_number">150 frame. The more of number of frame slower processing.</string>
+    <string name="folder_save">Folder Save</string>
+    <string name="storage_location" translatable="false">/storage/emulated/0/GIFStudioCreator</string>
+    <string name="language">Language</string>
+    <string name="english" translatable="false">English</string>
+    <string name="out_web">Our Website</string>
+    <string name="check_out" translatable="false">Check out over website.</string>
+    <string name="feedback">FeedBack</string>
+    <string name="tell_me_about">Tell us your opinion about this application</string>
+    <string name="share">Share</string>
+    <string name="tell_your_friends">Tell your friends about this application.</string>
+    <string name="check_update">Check Update</string>
+    <string name="version" translatable="false">V1.2</string>
+    <string name="btnnext">Next</string>
+
+</resources>
